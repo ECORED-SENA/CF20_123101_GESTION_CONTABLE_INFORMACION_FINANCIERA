@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Presupuesto financiero',
+    Description:
+      'Este componente formativo <i>Presupuesto financiero</i>, parte del programa de formación en Gestión Contable y de Información Financiera. Presenta fundamentos teóricos y prácticos para proyectar estados financieros, incluyendo planeación estratégica y financiera, cálculo de ventas, costos, gastos e inversiones, y definición de fuentes de financiación. Utiliza un caso práctico del sector alimentos, aplicando técnicas como regresión lineal y proyecciones basadas en el PIB e IPC. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,69 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Planeación estratégica',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Planes empresariales',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Planeación financiera',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Ejercicio práctico de proyección de estados financieros',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Proyección de ventas',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Proyección de los gastos de operación',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Proyección del costo de producción',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Proyección de la inversión en activos corrientes',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Inversión',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Fuentes de financiación',
+            hash: 't_3_6',
+          },
+          {
+            numero: '3.7',
+            titulo: 'Proyección de los estados financieros',
+            hash: 't_3_7',
+          },
+        ],
       },
     ],
     subMenu: [
