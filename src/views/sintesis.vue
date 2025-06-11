@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre presupuesto financiero,  planeación estratégica, que define el rumbo de la empresa e incluye planes institucionales, tácticos y operativos; planeación financiera, que proyecta ingresos, costos, inversiones y financiamiento; y caso práctico, que abarca la proyección de ventas y precios, el cálculo de costos y gastos, y la inversión inicial con sus fuentes de financiación.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

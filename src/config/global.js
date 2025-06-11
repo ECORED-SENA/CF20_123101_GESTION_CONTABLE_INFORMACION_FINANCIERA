@@ -161,13 +161,7 @@ export default {
         'Congreso de Colombia. (2009). Ley 1314 de 2009: Por la cual se regulan los principios y normas de contabilidad e información financiera y de aseguramiento de la información. Diario Oficial No. 47.409.',
       tipo: 'Página web',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=37826',
-    },
-    {
-      tema: 'Planeación financiera',
-      referencia: 'Gerencie.com. (s.f.). ¿Qué es el presupuesto financiero?',
-      tipo: 'Página web',
-      link: 'https://www.gerencie.com/que-es-el-presupuesto-financiero.html',
+        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/1677255',
     },
     {
       tema: 'Proyección de los estados financieros',

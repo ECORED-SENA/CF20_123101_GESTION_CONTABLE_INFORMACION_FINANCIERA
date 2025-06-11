@@ -38,11 +38,11 @@
                         thead
                           tr
                             th(width="25%")
-                              p.mb-0 #[b AÑO]
-                              p.mb-0 #[b (HISTÓRICO)]
+                              p.mb-0 #[b Año]
+                              p.mb-0 #[b (Histórico)]
                             th
-                              p.mb-0 #[b VENTAS ANUALES EN]
-                              p.mb-0 #[b CANTIDADES DEL SECTOR]
+                              p.mb-0 #[b Ventas anuales en]
+                              p.mb-0 #[b cantidades del sector]
                         tbody.bg-white
                           tr
                             td 1
@@ -218,20 +218,20 @@
                       span A.
                     |
                     p.mb-0 Se dispone de las ventas históricas del sector durante los últimos 5 años:
-                .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
-                  p.mb-0 #[b Tabla 2.] Ventas anuales del sector por año histórico (en cantidades)
                 .row.justify-content-center.mb-5
                   .col-lg-8
+                    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
+                      p.mb-0 #[b Tabla 2.] Ventas anuales del sector por año histórico (en cantidades)
                     .tabla-a.color-acento-botones(data-aos="fade-right")
                       table
                         thead
                           tr
                             th(width="25%")
-                              p.mb-0 #[b AÑO]
-                              p.mb-0 #[b (HISTÓRICO)]
+                              p.mb-0 #[b Año]
+                              p.mb-0 #[b (Histórico)]
                             th
-                              p.mb-0 #[b VENTAS ANUALES EN]
-                              p.mb-0 #[b CANTIDADES DEL SECTOR]
+                              p.mb-0 #[b Ventas anuales en]
+                              p.mb-0 #[b cantidades del sector]
                         tbody.bg-white
                           tr
                             td 1
@@ -258,11 +258,11 @@
                   .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
                     p #[b m] es la pendiente de la línea de regresión que representa el número de unidades que aumenta y por cada unidad de x. Se calcula con la siguiente fórmula:
                     figure
-                      img(src='@/assets/curso/tema3/img8.svg', alt='', style="width: 300px").m-auto
+                      img(src='@/assets/curso/tema3/img8.svg', alt='Fórmula que calcula la pendiente de una recta de regresión, donde m es igual a la diferencia entre el producto de n por la suma de xy y el producto de las sumas de x y de y, dividida entre la diferencia del producto de n por la suma de x al cuadrado y el cuadrado de la suma de x.', style="width: 300px").m-auto
                   .col-lg-6(data-aos="fade-left")
                     p #[b b] es la intersección de #[b y] en la línea de regresión cuando #[b x] toma el valor de cero. Se calcula con la siguiente fórmula:
                     figure
-                      img(src='@/assets/curso/tema3/img9.svg', alt='', style="width: 340px").m-auto
+                      img(src='@/assets/curso/tema3/img9.svg', alt='Fórmula  que calcula la ordenada al origen de una recta de regresión, donde b es igual a la diferencia entre el producto de la suma de y por la suma de x al cuadrado y el producto de las sumas de x y de xy, dividida entre la diferencia del producto de n por la suma de x al cuadrado y el cuadrado de la suma de x.', style="width: 340px").m-auto
                 p.mb-5 #[b x] es el número del año histórico.
                 ol.lista-ol--cuadro.lista-ol.mb-4
                   li.d-flex
@@ -270,17 +270,17 @@
                       span C.
                     |
                     p.mb-0 Para desarrollar las fórmulas de m y b se utilizó la siguiente tabla en Excel:
-                .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
-                  p.mb-0 #[b Tabla 3.] Ventas anuales del sector por año histórico (en cantidades)
                 .row.justify-content-center.mb-4
                   .col-lg-8
+                    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
+                      p.mb-0 #[b Tabla 3.] Ventas anuales del sector por año histórico (en cantidades)
                     .tabla-a.color-acento-botones(data-aos="fade-right")
                       table
                         thead
                           tr
                             th(width="25%")
-                              p.mb-0 #[b AÑO]
-                              p.mb-0 #[b (HISTÓRICO)]
+                              p.mb-0 #[b Año]
+                              p.mb-0 #[b (Histórico)]
                             th
                               p.mb-0 #[b X]
                             th
@@ -327,10 +327,10 @@
                             td.txt-p1 $90.715.000
                             td.txt-p1 55
                 p El resumen de los datos es el siguiente:
-                .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
-                  p.mb-0 #[b Tabla 4.] Parámetros de la regresión lineal para ventas anuales del sector
                 .row.justify-content-center.mb-5
                   .col-lg-8
+                    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
+                      p.mb-0 #[b Tabla 4.] Parámetros de la regresión lineal para ventas anuales del sector
                     .tabla-a.color-acento-botones.mb-4(data-aos="fade-right")
                       table
                         thead
@@ -390,12 +390,12 @@
                     .lista-ol--cuadro__vineta
                       span F.
                     |
-                    p.mb-0 De acuerdo con un estudio del mercado, la empresa podría participar con una participación del 2% de la venta del sector, por lo cual la nueva línea vendería 58.000 unidades resultado de multiplicar 2.900.000 por el 2 % de participación.
+                    p.mb-0 De acuerdo con un estudio del mercado, la empresa podría participar con una participación del 2 % de la venta del sector, por lo cual la nueva línea vendería 58.000 unidades resultado de multiplicar 2.900.000 por el 2 % de participación.
                 p.ms-4.ps-2 Para los siguientes 5 años la empresa asesora determinó viable incrementar la cantidad de unidades vendidas tomando como base el crecimiento de la economía representado por el indicador Producto Interno Bruto (PIB) del cual se conocieron los siguientes datos
-                .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
-                  p.mb-0 #[b Tabla 5.] Crecimiento en unidades del PIB por año histórico
                 .row.justify-content-center.mb-5
                   .col-lg-8
+                    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
+                      p.mb-0 #[b Tabla 5.] Crecimiento en unidades del PIB por año histórico
                     .tabla-a.color-acento-botones.mb-4(data-aos="fade-right")
                       table
                         thead
@@ -403,17 +403,17 @@
                             th(width="25%")
                               p.mb-0 #[b Indicador de crecimiento]
                             th
-                              p.mb-0 #[b AÑO 1]
+                              p.mb-0 #[b Año 1]
                             th
-                              p.mb-0 #[b AÑO 2]
+                              p.mb-0 #[b Año 2]
                             th
-                              p.mb-0 #[b AÑO 3]
+                              p.mb-0 #[b Año 3]
                             th
-                              p.mb-0 #[b AÑO 4]
+                              p.mb-0 #[b Año 4]
                             th
-                              p.mb-0 #[b AÑO 5]
+                              p.mb-0 #[b Año 5]
                             th
-                              p.mb-0 #[b AÑO 6]
+                              p.mb-0 #[b Año 6]
                         tbody.bg-white
                           tr
                             td Crecimiento en unidades (PIB)
@@ -429,10 +429,10 @@
                       span G.
                     |
                     p.mb-0 Luego para el segundo año se proyectaron unas ventas de 58.580 calculados con la fórmula: 58.000 x (1 + 1 %) Para el año 3 las ventas proyectadas fueron de 58.283 unidades, calculadas así: 58.283 x (1 + 1.2 %) Note que se debe tomar el PIB del período anterior.
-                .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
-                  p.mb-0 #[b Tabla 6.] Proyección de ventas anuales esperadas por año histórico (en unidades)
                 .row.justify-content-center
                   .col-lg-8
+                    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
+                      p.mb-0 #[b Tabla 6.] Proyección de ventas anuales esperadas por año histórico (en unidades)
                     .tabla-a.color-acento-botones.mb-4(data-aos="fade-right")
                       table
                         thead
@@ -440,17 +440,17 @@
                             th(width="25%")
                               p.mb-0 #[b Concepto]
                             th
-                              p.mb-0 #[b AÑO 1]
+                              p.mb-0 #[b Año 1]
                             th
-                              p.mb-0 #[b AÑO 2]
+                              p.mb-0 #[b Año 2]
                             th
-                              p.mb-0 #[b AÑO 3]
+                              p.mb-0 #[b Año 3]
                             th
-                              p.mb-0 #[b AÑO 4]
+                              p.mb-0 #[b Año 4]
                             th
-                              p.mb-0 #[b AÑO 5]
+                              p.mb-0 #[b Año 5]
                             th
-                              p.mb-0 #[b AÑO 6]
+                              p.mb-0 #[b Año 6]
                         tbody.bg-white
                           tr
                             td Ventas esperadas anuales - unidades
@@ -475,10 +475,10 @@
           .row
             .col-12
               .p-5.bg-c2
-                .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
-                  p.mb-0 #[b Tabla 7.] Crecimiento en precios (IPC) por año histórico y proyectado
                 .row.justify-content-center
                   .col-lg-10
+                    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
+                      p.mb-0 #[b Tabla 7.] Crecimiento en precios (IPC) por año histórico y proyectado
                     .tabla-a.color-acento-botones.mb-4(data-aos="fade-right")
                       table
                         thead
@@ -486,19 +486,19 @@
                             th(width="25%")
                               p.mb-0 #[b Indicador de crecimiento]
                             th
-                              p.mb-0 #[b AÑO 5 (H)]
+                              p.mb-0 #[b Año 5 (H)]
                             th
-                              p.mb-0 #[b AÑO 1 (P)]
+                              p.mb-0 #[b Año 1 (P)]
                             th
-                              p.mb-0 #[b AÑO 2 (P)]
+                              p.mb-0 #[b Año 2 (P)]
                             th
-                              p.mb-0 #[b AÑO 3 (P)]
+                              p.mb-0 #[b Año 3 (P)]
                             th
-                              p.mb-0 #[b AÑO 4 (P)]
+                              p.mb-0 #[b Año 4 (P)]
                             th
-                              p.mb-0 #[b AÑO 5 (P)]
+                              p.mb-0 #[b Año 5 (P)]
                             th
-                              p.mb-0 #[b AÑO 6 (P)]
+                              p.mb-0 #[b Año 6 (P)]
                         tbody.bg-white
                           tr
                             td Crecimiento en precios (IPC)
@@ -511,10 +511,10 @@
                             td.txt-p1 3,00 %
                 p El PVU del primer año de proyección ascendió a $135.000 resultado de multiplicar: 130.000 x (1 + 3.85 %)
                 p.mb-4 Para los siguientes años se utilizó el mismo procedimiento dando como resultado los siguientes PVU:
-                .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
-                  p.mb-0 #[b Tabla 8.] Proyección del precio de venta unitario por año histórico
                 .row.justify-content-center
                   .col-lg-10
+                    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
+                      p.mb-0 #[b Tabla 8.] Proyección del precio de venta unitario por año histórico
                     .tabla-a.color-acento-botones.mb-4(data-aos="fade-right")
                       table
                         thead
@@ -522,17 +522,17 @@
                             th(width="25%")
                               p.mb-0 #[b Concepto]
                             th
-                              p.mb-0 #[b AÑO 1]
+                              p.mb-0 #[b Año 1]
                             th
-                              p.mb-0 #[b AÑO 2]
+                              p.mb-0 #[b Año 2]
                             th
-                              p.mb-0 #[b AÑO 3]
+                              p.mb-0 #[b Año 3]
                             th
-                              p.mb-0 #[b AÑO 4]
+                              p.mb-0 #[b Año 4]
                             th
-                              p.mb-0 #[b AÑO 5]
+                              p.mb-0 #[b Año 5]
                             th
-                              p.mb-0 #[b AÑO 6]
+                              p.mb-0 #[b Año 6]
                         tbody.bg-white
                           tr
                             td Precio de venta unitario
@@ -554,17 +554,17 @@
                             th(width="15%")
                               p.mb-0 #[b Concepto]
                             th
-                              p.mb-0 #[b AÑO 1]
+                              p.mb-0 #[b Año 1]
                             th
-                              p.mb-0 #[b AÑO 2]
+                              p.mb-0 #[b Año 2]
                             th
-                              p.mb-0 #[b AÑO 3]
+                              p.mb-0 #[b Año 3]
                             th
-                              p.mb-0 #[b AÑO 4]
+                              p.mb-0 #[b Año 4]
                             th
-                              p.mb-0 #[b AÑO 5]
+                              p.mb-0 #[b Año 5]
                             th
-                              p.mb-0 #[b AÑO 6]
+                              p.mb-0 #[b Año 6]
                         tbody.bg-white
                           tr
                             td Ventas
@@ -616,19 +616,19 @@
                         thead
                           tr
                             th(width="25%")
-                              p.mb-0 #[b RUBO]
+                              p.mb-0 #[b Rubro]
                             th
-                              p.mb-0 #[b AÑO 1]
+                              p.mb-0 #[b Año 1]
                             th
-                              p.mb-0 #[b AÑO 2]
+                              p.mb-0 #[b Año 2]
                             th
-                              p.mb-0 #[b AÑO 3]
+                              p.mb-0 #[b Año 3]
                             th
-                              p.mb-0 #[b AÑO 4]
+                              p.mb-0 #[b Año 4]
                             th
-                              p.mb-0 #[b AÑO 5]
+                              p.mb-0 #[b Año 5]
                             th
-                              p.mb-0 #[b AÑO 6]
+                              p.mb-0 #[b Año 6]
                         tbody.bg-white
                           tr
                             td Costo unitario de materia prima
@@ -655,19 +655,19 @@
                         thead
                           tr
                             th(width="15%")
-                              p.mb-0 #[b RUBO]
+                              p.mb-0 #[b Rubro]
                             th
-                              p.mb-0 #[b AÑO 1]
+                              p.mb-0 #[b Año 1]
                             th
-                              p.mb-0 #[b AÑO 2]
+                              p.mb-0 #[b Año 2]
                             th
-                              p.mb-0 #[b AÑO 3]
+                              p.mb-0 #[b Año 3]
                             th
-                              p.mb-0 #[b AÑO 4]
+                              p.mb-0 #[b Año 4]
                             th
-                              p.mb-0 #[b AÑO 5]
+                              p.mb-0 #[b Año 5]
                             th
-                              p.mb-0 #[b AÑO 6]
+                              p.mb-0 #[b Año 6]
                         tbody.bg-white
                           tr
                             td Mano de obra indirecta
@@ -714,7 +714,7 @@
               .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
                 p.mb-0 #[b Figura 3.] Clasificación de los gastos de operación: desembolsables y no desembolsables
               figure
-                img(src='@/assets/curso/tema3/img11.svg', alt='abla sobre clasificación de los gastos de operación dividida en gastos desembolsables y no desembolsables, con dos categorías principales: gastos de administración y gastos de ventas.', style='width: 750px').m-auto
+                img(src='@/assets/curso/tema3/img11.svg', alt='Tabla sobre clasificación de los gastos de operación dividida en gastos desembolsables y no desembolsables, con dos categorías principales: gastos de administración y gastos de ventas.', style='width: 750px').m-auto
           p Como se puede apreciar el nombre de los gastos en la mayoría de los casos es el mismo concepto, pero se diferencian porque se generan en diferentes áreas de la empresa. La metodología para proyectar los gastos de operación, excepto las depreciaciones y amortizaciones, es la misma utilizada con la materia prima y la mano de obra directa: se toman los datos de entrada para el primer año y se proyectan con el dato del IPC.
           p #[b Para el segundo año proyectado la cifra queda en $1.032.000.000 calculada de la siguiente manera:]
           .row.mb-3
@@ -733,17 +733,17 @@
                       th(width="15%")
                         p.mb-0 #[b Concepto]
                       th
-                        p.mb-0 #[b AÑO 1]
+                        p.mb-0 #[b Año 1]
                       th
-                        p.mb-0 #[b AÑO 2]
+                        p.mb-0 #[b Año 2]
                       th
-                        p.mb-0 #[b AÑO 3]
+                        p.mb-0 #[b Año 3]
                       th
-                        p.mb-0 #[b AÑO 4]
+                        p.mb-0 #[b Año 4]
                       th
-                        p.mb-0 #[b AÑO 5]
+                        p.mb-0 #[b Año 5]
                       th
-                        p.mb-0 #[b AÑO 6]
+                        p.mb-0 #[b Año 6]
                   tbody.bg-white
                     tr
                       td Gastos de administración y venta
@@ -806,16 +806,16 @@
               img(src='@/assets/curso/tema3/img6.png', alt='', style="width: 440px").m-auto
     p.mb-4 Si se tiene en cuenta que es el primer año de operaciones de la nueva línea de negocio, los valores de inventarios iniciales serán cero. Para calcular las cantidades de inventarios finales se utilizan los índices de rotación, que para el caso de los productos terminados es de 18, dato calculado con base en el dato de entrada que indica que la empresa tardaría en promedio 20 días en vender sus nuevos productos:
     figure.mb-4
-      img(src='@/assets/curso/tema3/img12.svg', alt='', style="width: 700px").m-auto
+      img(src='@/assets/curso/tema3/img12.svg', alt='Fórmula para calcular la rotación de productos terminados. Se presenta de la siguiente manera: Rotación de productos terminados = (Días del año / Días de ventas) = (360 / 20) = 18. Esto indica que los productos terminados rotan 18 veces al año, suponiendo un año comercial de 360 días y un periodo promedio de 20 días de ventas por rotación.', style="width: 700px").m-auto
     p.mb-4 La rotación de productos en proceso es de 24 calculado con la siguiente fórmula:
     figure.mb-4
-      img(src='@/assets/curso/tema3/img13.svg', alt='', style="width: 700px").m-auto
+      img(src='@/assets/curso/tema3/img13.svg', alt='Fórmula para calcular la rotación de productos en proceso. La expresión mostrada es: Rotación de productos en proceso = (Días del año / Días de ventas) = (360 / 15) = 24. Esto significa que los productos en proceso rotan 24 veces al año, asumiendo un año comercial de 360 días y un ciclo promedio de 15 días por rotación.', style="width: 700px").m-auto
     p.mb-4 Recuerde que una política de inventario de productos terminados de 20 días significa que el gerente de ventas espera que el proceso de venta dure máximo 20 días, por consiguiente, al final del periodo proyectado quedarán unidades terminadas para 20 días de ventas. ¿Cuál es ese número de unidades?
     figure.mb-4
-      img(src='@/assets/curso/tema3/img14.svg', alt='', style="width: 700px").m-auto
+      img(src='@/assets/curso/tema3/img14.svg', alt='Fórmula para calcular el inventario final de productos terminados. Se expresa de la siguiente manera: Inventario final de productos terminados = (Ventas proyectadas / Rotación de productos terminados). En la fórmula se sustituyen los valores: 58,000 dividido entre 18, lo cual da como resultado 3,222. Esto representa que, con ventas proyectadas de 58,000 unidades y una rotación de productos terminados de 18 veces al año, el inventario final necesario será de aproximadamente 3,222 unidades.', style="width: 700px").m-auto
     p.mb-4 De igual manera se calcula el número de unidades terminadas equivalentes al inventario final de productos en proceso:
     figure.mb-4
-      img(src='@/assets/curso/tema3/img15.svg', alt='', style="width: 700px").m-auto
+      img(src='@/assets/curso/tema3/img15.svg', alt='Fórmula para calcular el inventario final de productos terminados, mostrada como: Inventario final de productos terminados = (Ventas proyectadas / Rotación de productos terminados). En este caso, se presentan los siguientes valores: 58,000 dividido entre 24, lo cual da como resultado 2,417. Esto indica que, con ventas proyectadas de 58,000 unidades y una rotación de productos terminados de 24 veces al año, el inventario final requerido será de aproximadamente 2,417 unidades.', style="width: 700px").m-auto
     p.mb-4 Con los datos anteriores se calcula el número de unidades a producir para el año uno, bajo el siguiente esquema:
     .row.justify-content-center.mb-4
       .col-lg-8
@@ -828,7 +828,7 @@
                 th
                   p.mb-0 #[b Concepto]
                 th
-                  p.mb-0 #[b Valor]]
+                  p.mb-0 #[b Valor]
             tbody.bg-white
               tr
                 td (+) Unidades a vender
@@ -860,17 +860,17 @@
                 th
                   p.mb-0 #[b Concepto]
                 th
-                  p.mb-0 #[b AÑO 1]
+                  p.mb-0 #[b Año 1]
                 th
-                  p.mb-0 #[b AÑO 2]
+                  p.mb-0 #[b Año 2]
                 th
-                  p.mb-0 #[b AÑO 3]
+                  p.mb-0 #[b Año 3]
                 th
-                  p.mb-0 #[b AÑO 4]
+                  p.mb-0 #[b Año 4]
                 th
-                  p.mb-0 #[b AÑO 5]
+                  p.mb-0 #[b Año 5]
                 th
-                  p.mb-0 #[b AÑO 6]
+                  p.mb-0 #[b Año 6]
             tbody.bg-white
               tr
                 td (+) Unidades a vender
@@ -932,17 +932,17 @@
                 th
                   p.mb-0 #[b Concepto]
                 th
-                  p.mb-0 #[b AÑO 1]
+                  p.mb-0 #[b Año 1]
                 th
-                  p.mb-0 #[b AÑO 2]
+                  p.mb-0 #[b Año 2]
                 th
-                  p.mb-0 #[b AÑO 3]
+                  p.mb-0 #[b Año 3]
                 th
-                  p.mb-0 #[b AÑO 4]
+                  p.mb-0 #[b Año 4]
                 th
-                  p.mb-0 #[b AÑO 5]
+                  p.mb-0 #[b Año 5]
                 th
-                  p.mb-0 #[b AÑO 6]
+                  p.mb-0 #[b Año 6]
             tbody.bg-white
               tr
                 td Materia prima
@@ -1071,29 +1071,37 @@
               i.fas.fa-circle-check(style="color: #5B39A6")
               |
               p.mb-0 El valor del rubro productos en proceso se calcula multiplicando el valor del inventario final de productos en proceso por el valor del costo unitario en efectivo.
-          figure.mb-4
-            img(src='@/assets/curso/tema3/img20.svg', alt='', style="width: 300px").m-auto
+          .row.justify-content-center.mb-4
+            .col-auto
+              .p-3.bg-c8
+                p.text-center.mb-0 2.417 𝑋 74.614 = 180.314.265
           ul.lista-ul--color.mb-4
             li.d-flex
               i.fas.fa-circle-check(style="color: #5B39A6")
               |
               p.mb-0 El valor del costo unitario sale de dividir el costo de producción en efectivo entre el número de unidades a producir:
-          figure.mb-4
-            img(src='@/assets/curso/tema3/img21.svg', alt='', style="width: 370px").m-auto
+          .row.justify-content-center.mb-4
+            .col-auto
+              .p-3.bg-c8
+                p.text-center.mb-0 4.748.340.000 / 2.417 = 74.614
           ul.lista-ul--color.mb-4
             li.d-flex
               i.fas.fa-circle-check(style="color: #5B39A6")
               |
               p.mb-0 El valor del rubro productos terminados se calcula multiplicando el valor del inventario final de productos terminados por el valor del costo unitario en efectivo:
-          figure.mb-4
-            img(src='@/assets/curso/tema3/img22.svg', alt='', style="width: 370px").m-auto
+          .row.justify-content-center.mb-4
+            .col-auto
+              .p-3.bg-c8
+                p.text-center.mb-0 3.222 𝑋 74.614 = 240.405.278
           ul.lista-ul--color.mb-4
             li.d-flex
               i.fas.fa-circle-check(style="color: #5B39A6")
               |
               p.mb-0 El valor del inventario final de materia prima es igual a la división entre la mano de obra directa consumida y la rotación de materia prima:
-          figure.mb-4
-            img(src='@/assets/curso/tema3/img23.svg', alt='', style="width: 370px").m-auto
+          .row.justify-content-center.mb-4
+            .col-auto
+              .p-3.bg-c8
+                p.text-center.mb-0 1.272.780.000 / 36 = 53.032.500
           p Ahora bien, para calcular la rotación de materia prima se dividen los días del año entre el plazo que la empresa estima va a estar almacenada la materia prima, que para este caso son 10 días, luego 360 entre 10 da como resultado 36.
           p.mb-4 #[b La inversión proyectada en inventarios queda como observa en el siguiente cuadro:]
           .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
@@ -1105,17 +1113,17 @@
                   th
                     p.mb-0 #[b Concepto]
                   th
-                    p.mb-0 #[b AÑO 1]
+                    p.mb-0 #[b Año 1]
                   th
-                    p.mb-0 #[b AÑO 2]
+                    p.mb-0 #[b Año 2]
                   th
-                    p.mb-0 #[b AÑO 3]
+                    p.mb-0 #[b Año 3]
                   th
-                    p.mb-0 #[b AÑO 4]
+                    p.mb-0 #[b Año 4]
                   th
-                    p.mb-0 #[b AÑO 5]
+                    p.mb-0 #[b Año 5]
                   th
-                    p.mb-0 #[b AÑO 6]
+                    p.mb-0 #[b Año 6]
               tbody.bg-white
                 tr
                   td Productos en proceso
@@ -1154,16 +1162,20 @@
               i.fas.fa-circle-check(style="color: #5B39A6")
               |
               p.mb-0 Para el cálculo del valor de la cartera comercial que va a quedar al final del año basta dividir el valor de las ventas entre la rotación de cartera.
-          figure.mb-4
-            img(src='@/assets/curso/tema3/img24.svg', alt='', style="width: 370px").m-auto
+          .row.justify-content-center.mb-4
+            .col-auto
+              .p-3.bg-c8
+                p.text-center.mb-0 7.830.000.000 / 8 = 978.750.000
           p.mb-4.ps-4.ms-1 La rotación de cartera se calcula dividiendo los días del año entre el plazo que la empresa estima va a dar a sus clientes ya que se estima que todas las ventas se efectuarán a crédito con un plazo de 45 días, luego 360 entre 45 da como resultado 8.
           ul.lista-ul--color.mb-4
             li.d-flex
               i.fas.fa-circle-check(style="color: #5B39A6")
               |
               p.mb-0 Una cosa es el valor final de la cartera y otra es la inversión requerida en cartera, valor que se calcula dividiendo el monto de la cartera entre el precio de venta unitario para luego multiplicarlo por el costo de producción unitario en efectivo. Queda de la siguiente manera:
-          figure.mb-4
-            img(src='@/assets/curso/tema3/img25.svg', alt='', style="width: 430px").m-auto
+          .row.justify-content-center.mb-4
+            .col-auto
+              .p-3.bg-c8
+                p.text-center.mb-0 (978.750.000 / 135.000) 𝑋 74.614 = 540.949.182
           ul.lista-ul--color.mb-0
             li.d-flex
               i.fas.fa-circle-check(style="color: #5B39A6")
@@ -1376,7 +1388,7 @@
                 td (=) Compras a crédito
                 td.txt-p1 $1.962.202.500
     figure.mb-4
-      img(src='@/assets/curso/tema3/img31.svg', alt='', style="width: 700px").m-auto
+      img(src='@/assets/curso/tema3/img31.svg', alt='Fórmula que calculan la rotación de proveedores dividiendo los 360 días del año entre un plazo de 60 días, obteniendo un resultado de 6; luego, se calcula la financiación con proveedores dividiendo 1.962.202.500 entre 6, lo que da como resultado 327.033.750.', style="width: 700px").m-auto
     p.mb-4 Por lo tanto, la financiación total queda de la siguiente manera:
     .row.justify-content-center.mb-4
       .col-lg-8
@@ -1422,15 +1434,15 @@
             th
               p.mb-0 #[b Concepto]
             th
-              p.mb-0 #[b AÑO 1]
+              p.mb-0 #[b Año 1]
             th
-              p.mb-0 #[b AÑO 2]
+              p.mb-0 #[b Año 2]
             th
-              p.mb-0 #[b AÑO 3]
+              p.mb-0 #[b Año 3]
             th
-              p.mb-0 #[b AÑO 4]
+              p.mb-0 #[b Año 4]
             th
-              p.mb-0 #[b AÑO 5]
+              p.mb-0 #[b Año 5]
         tbody.bg-white
           tr
             td Abono a intereses
@@ -1462,21 +1474,27 @@
             td.txt-p1 $836.817.461
     p.mb-4 El valor de la cuota se calcula con la siguiente fórmula:
     figure.mb-4
-      img(src='@/assets/curso/tema3/img32.svg', alt='', style="width: 570px").m-auto
+      img(src='@/assets/curso/tema3/img32.svg', alt='Fórmula para calcular el valor de un pago periódico, donde se multiplica el valor presente por la tasa de interés y se divide entre uno menos uno más la tasa de interés elevada a la potencia negativa del número de periodos. En el ejemplo, se calcula el pago como 2.502.596.457 por 20 % dividido entre 1 menos (1 + 20 %) elevado a la -5, dando un resultado de 836.817.461.', style="width: 570px").m-auto
     p.mb-4 Cada vez que se cancele una cuota se abona una parte a intereses y el resto a la deuda.
     .row
       .col-lg-4.mb-4.mb-lg-0
         p Para el primer año el valor del interés es iguales a:
-        figure
-          img(src='@/assets/curso/tema3/img33.svg', alt='', style="width: 380px").m-auto
+        .row
+          .col-12
+            .p-3.bg-c8
+              p.text-center.mb-0 2.502.596.457 𝑋 20 % = 500.519.291
       .col-lg-4.mb-4.mb-lg-0
         p Por consiguiente, el saldo se abona a capital:
-        figure
-          img(src='@/assets/curso/tema3/img34.svg', alt='', style="width: 380px").m-auto
+        .row
+          .col-12
+            .p-3.bg-c8
+              p.text-center.mb-0 836.817.461 - 500.519.291 = 336.298.169
       .col-lg-4
         p Al final del primer año el saldo de la deuda es igual a:
-        figure
-          img(src='@/assets/curso/tema3/img35.svg', alt='', style="width: 380px").m-auto
+        .row
+          .col-12
+            .p-3.bg-c8
+              p.text-center.mb-0 2.502.596.457 - 336.298.169 = 2.166.298.287
     Separador
     #t_3_7
     .titulo-segundo.color-acento-contenido
@@ -1499,17 +1517,17 @@
                   th
                     p.mb-0 #[b Concepto]
                   th
-                    p.mb-0 #[b AÑO 1]
+                    p.mb-0 #[b Año 1]
                   th
-                    p.mb-0 #[b AÑO 2]
+                    p.mb-0 #[b Año 2]
                   th
-                    p.mb-0 #[b AÑO 3]
+                    p.mb-0 #[b Año 3]
                   th
-                    p.mb-0 #[b AÑO 4]
+                    p.mb-0 #[b Año 4]
                   th
-                    p.mb-0 #[b AÑO 5]
+                    p.mb-0 #[b Año 5]
                   th
-                    p.mb-0 #[b AÑO 6]
+                    p.mb-0 #[b Año 6]
               tbody.bg-white
                 tr
                   td Inventario inicial de productos en proceso
@@ -1581,17 +1599,17 @@
                   th
                     p.mb-0 #[b Concepto]
                   th
-                    p.mb-0 #[b AÑO 1]
+                    p.mb-0 #[b Año 1]
                   th
-                    p.mb-0 #[b AÑO 2]
+                    p.mb-0 #[b Año 2]
                   th
-                    p.mb-0 #[b AÑO 3]
+                    p.mb-0 #[b Año 3]
                   th
-                    p.mb-0 #[b AÑO 4]
+                    p.mb-0 #[b Año 4]
                   th
-                    p.mb-0 #[b AÑO 5]
+                    p.mb-0 #[b Año 5]
                   th
-                    p.mb-0 #[b AÑO 6]
+                    p.mb-0 #[b Año 6]
               tbody.bg-white
                 tr
                   td Ventas
@@ -1674,8 +1692,10 @@
                   td.txt-p1 $1.556.250.346
                   td.txt-p1 $1.756.690.310
           p.mb-4 El valor del gasto por la amortización de diferidos se calcula dividiendo el valor pagado por los estudios de factibilidad entre los años señalados por la empresa para amortizarlos:
-          figure.mb-4
-            img(src='@/assets/curso/tema3/img36.svg', alt='', style="width: 630px").m-auto
+          .row.justify-content-center.mb-4
+            .col-auto
+              .p-3.bg-c8
+                p.text-center.mb-0 #[i Amortización de diferidos] = 60.000.000 / 65 = 12.000.000
           ul.lista-ul--color.mb-4
             li.d-flex
               i.fas.fa-circle-check(style="color: #5B39A6")
@@ -1690,17 +1710,17 @@
                   th
                     p.mb-0 #[b Concepto]
                   th
-                    p.mb-0 #[b AÑO 1]
+                    p.mb-0 #[b Año 1]
                   th
-                    p.mb-0 #[b AÑO 2]
+                    p.mb-0 #[b Año 2]
                   th
-                    p.mb-0 #[b AÑO 3]
+                    p.mb-0 #[b Año 3]
                   th
-                    p.mb-0 #[b AÑO 4]
+                    p.mb-0 #[b Año 4]
                   th
-                    p.mb-0 #[b AÑO 5]
+                    p.mb-0 #[b Año 5]
                   th
-                    p.mb-0 #[b AÑO 6]
+                    p.mb-0 #[b Año 6]
               tbody.bg-white
                 tr
                   td Utilidades al inicio del año
@@ -1782,11 +1802,11 @@
                   thead
                     tr
                       th
-                        p.mb-0 #[b OPERACIÓN]
+                        p.mb-0 #[b Operación]
                       th
-                        p.mb-0 #[b VALOR]
+                        p.mb-0 #[b Valor]
                       th
-                        p.mb-0 #[b ESTADO FINANCIERO]
+                        p.mb-0 #[b Estado financiero]
                   tbody.bg-white
                     tr
                       td Ventas a crédito
@@ -1809,17 +1829,17 @@
                   th
                     p.mb-0 #[b Concepto]
                   th
-                    p.mb-0 #[b AÑO 1]
+                    p.mb-0 #[b Año 1]
                   th
-                    p.mb-0 #[b AÑO 2]
+                    p.mb-0 #[b Año 2]
                   th
-                    p.mb-0 #[b AÑO 3]
+                    p.mb-0 #[b Año 3]
                   th
-                    p.mb-0 #[b AÑO 4]
+                    p.mb-0 #[b Año 4]
                   th
-                    p.mb-0 #[b AÑO 5]
+                    p.mb-0 #[b Año 5]
                   th
-                    p.mb-0 #[b AÑO 6]
+                    p.mb-0 #[b Año 6]
               tbody.bg-white
                 tr
                   td Recaudo de cartera
@@ -1918,19 +1938,19 @@
                   th
                     p.mb-0 #[b Concepto]
                   th
-                    p.mb-0 #[b AÑO 0 (Inicio)]
+                    p.mb-0 #[b Año 0 (Inicio)]
                   th
-                    p.mb-0 #[b AÑO 1]
+                    p.mb-0 #[b Año 1]
                   th
-                    p.mb-0 #[b AÑO 2]
+                    p.mb-0 #[b Año 2]
                   th
-                    p.mb-0 #[b AÑO 3]
+                    p.mb-0 #[b Año 3]
                   th
-                    p.mb-0 #[b AÑO 4]
+                    p.mb-0 #[b Año 4]
                   th
-                    p.mb-0 #[b AÑO 5]
+                    p.mb-0 #[b Año 5]
                   th
-                    p.mb-0 #[b AÑO 6]
+                    p.mb-0 #[b Año 6]
               tbody.bg-white
                 tr
                   td Aportes de socios
@@ -1995,19 +2015,19 @@
                   th
                     p.mb-0 #[b Concepto]
                   th(width="20%")
-                    p.mb-0 #[b AÑO 0 (Inicio)]
+                    p.mb-0 #[b Año 0 (Inicio)]
                   th
-                    p.mb-0 #[b AÑO 1]
+                    p.mb-0 #[b Año 1]
                   th
-                    p.mb-0 #[b AÑO 2]
+                    p.mb-0 #[b Año 2]
                   th
-                    p.mb-0 #[b AÑO 3]
+                    p.mb-0 #[b Año 3]
                   th
-                    p.mb-0 #[b AÑO 4]
+                    p.mb-0 #[b Año 4]
                   th
-                    p.mb-0 #[b AÑO 5]
+                    p.mb-0 #[b Año 5]
                   th
-                    p.mb-0 #[b AÑO 6]
+                    p.mb-0 #[b Año 6]
               tbody.bg-white
                 tr
                   td Compra de maquinaria
@@ -2045,17 +2065,17 @@
                   th
                     p.mb-0 #[b Concepto]
                   th
-                    p.mb-0 #[b AÑO 1]
+                    p.mb-0 #[b Año 1]
                   th
-                    p.mb-0 #[b AÑO 2]
+                    p.mb-0 #[b Año 2]
                   th
-                    p.mb-0 #[b AÑO 3]
+                    p.mb-0 #[b Año 3]
                   th
-                    p.mb-0 #[b AÑO 4]
+                    p.mb-0 #[b Año 4]
                   th
-                    p.mb-0 #[b AÑO 5]
+                    p.mb-0 #[b Año 5]
                   th
-                    p.mb-0 #[b AÑO 6]
+                    p.mb-0 #[b Año 6]
               tbody.bg-white
                 tr
                   td Aumento de efectivo
@@ -2096,24 +2116,24 @@
               thead
                 tr
                   th(colspan="8")
-                    p.mb-0 #[b ESTADO DE SITUACIÓN FINANCIERA A 31 DE DICIEMBRE]
+                    p.mb-0 #[b Estado de situación  financiera a 31 de diciembre]
                 tr
                   th
                     p.mb-0 #[b Concepto]
                   th(width="20%")
-                    p.mb-0 #[b AÑO 0 (Inicio)]
+                    p.mb-0 #[b Año 0 (Inicio)]
                   th
-                    p.mb-0 #[b AÑO 1]
+                    p.mb-0 #[b Año 1]
                   th
-                    p.mb-0 #[b AÑO 2]
+                    p.mb-0 #[b Año 2]
                   th
-                    p.mb-0 #[b AÑO 3]
+                    p.mb-0 #[b Año 3]
                   th
-                    p.mb-0 #[b AÑO 4]
+                    p.mb-0 #[b Año 4]
                   th
-                    p.mb-0 #[b AÑO 5]
+                    p.mb-0 #[b Año 5]
                   th
-                    p.mb-0 #[b AÑO 6]
+                    p.mb-0 #[b Año 6]
               tbody.bg-white
                 tr
                   td Activos
