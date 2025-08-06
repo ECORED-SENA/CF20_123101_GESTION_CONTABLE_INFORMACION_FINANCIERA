@@ -1280,7 +1280,7 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")
           p.mb-0 #[b Figura 4.] Clasificación de los pasivos
         figure
-          img(src='@/assets/curso/tema3/img26.svg', alt='', style='width: 900px').m-auto
+          img(src='@/assets/curso/tema3/img26.svg', alt='Diagrama jerárquico sobre la clasificación de los pasivos dividido en pasivos operativos (laboral, comercial y fiscal) y pasivos financieros, con ejemplos como empleados, salarios, proveedores, impuestos, tasas, leasing financiero y emisión de bonos.', style='width: 900px').m-auto
     p.mb-4 El #[b aporte de capital] en las sociedades anónimas se realiza mediante la emisión de acciones comunes, las cuales otorgan a su poseedor derechos #[b económicos y políticos:]
     .row.justify-content-center.mb-4
       .col-md-8.col-lg-5.mb-4.mb-lg-0
